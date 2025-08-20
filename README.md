@@ -2,7 +2,7 @@
 ## Project Overview
 The Online Book Store project is a database-driven application designed to manage books, customers, and orders efficiently. The system provides structured storage of data related to books, their genres, authors, availability, customers’ details, and orders placed. SQL queries are applied to retrieve insights such as sales reports, customer activity, stock levels, and revenue generation. The project demonstrates practical applications of SQL in managing and analyzing real-world datasets for e-commerce-like platforms.
 ## Entity Relationship Diagram (ERD)
-![ERD](https://github.com/Speardrex/sql-ecommerce-bookstore/blob/main/Database%20ER%20diagram%20(crow's%20foot).png)
+![ERD](https://github.com/Speardrex/sql-ecommerce-bookstore/blob/main/Database%20ER%20diagram.png)
 
 
 ## Database Schema
