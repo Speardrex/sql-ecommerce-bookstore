@@ -67,3 +67,13 @@ The project is split into two tiers of questions to test SQL skills of increasin
 ## Project Focus
 
 This project primarily focuses on developing and showcasing the following SQL skills:
+
+-**Data Management**: Organizing book, customer, and order data into relational tables.
+
+-**Basic Queries**: Retrieving, filtering, and aggregating data (e.g., books by genre, orders by date, customer locations).
+
+-**Advanced Analysis**: Performing joins, grouping, and aggregations to uncover insights like top customers, top-selling genres, most expensive books, and total revenue.
+
+-**Decision Support**: Enabling business-focused insights such as customer spending behavior, stock analysis, and sales tracking.
+
+-**Hands-on SQL Practice**: Building strong command over SELECT, JOIN, GROUP BY, HAVING, ORDER BY, and aggregate functions.
