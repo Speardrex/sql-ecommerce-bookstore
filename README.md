@@ -43,37 +43,35 @@ The project uses three main tables:
 The project is split into two tiers of questions to test SQL skills of increasing complexity:
 
 ### Intermediate
-1. Total Seats
-2. What are the total number of seats available for election in each state?
-3. Total seats won BY NDA Alliance
-4. Seats Won by NDA Alliance Parties
-5. Total Seats Won by I.N.D.I.A. Allianz
-6. Seats Won by I.N.D.I.A Alliance Parties
-7. Adding a new column field in the table partywise_results to get the party allianz as NDA or I.N.D.I.A
-8. Add party alliance as NDA Allianz
-9. Add party alliance as I.N.D.I.A Allianz
-10. Add other party alliance as Other.
+1. Retrieve all books in the “FICTION” genre.
+2. Find books published after the year ‘1950’
+3. List all customers from ‘Canada’
+4. Show orders placed in November 2023.
+5. Retrieve the total stock of books available
+6. Find the details of the most expensive book
+7. Show all customers who ordered more than 1 quantity of a book
+8. Retrieve all order where the total amount exceeds $20
+9. List all genre available in the books table
+10. Find the book with the lowest stock
+11. Calculate the total revenue generated from all orders
 
-### Complex
-11. Winning candidate's name, their party name, total votes, and the margin of victory for a specific state and constituency?
-12. Winning candidate's name, their party name, total votes, and the margin of victory for a specific state and constituency?
-13. What is the distribution of EVM votes versus postal votes for candidates in a specific constituency?
-14. Which party won the most seats in s State, and how many seats did each party win?
-15. What is the total number of seats won by each party alliance (NDA, I.N.D.I.A, and OTHER) in each state for the India Elections 2024
-16. Which candidate received the highest number of EVM votes in each constituency (Top 10)?
-17. Which candidate won and which candidate was the runner-up in each constituency of State for the 2024 elections?
-18. For the state of Maharashtra, what are the total number of seats, total number of candidates, total number of parties, total votes (including EVM and postal), and the breakdown of EVM and postal votes?
+### Advance
+12. Retrieve the total number of books sold for each genre
+13. Find the average price of books in the ‘Fantasy’ genre
+14. List customers who have placed at least 2 orders
+15. Find the most frequently ordered book.
+16. Show the top 3 expensive book of ‘Fantasy’ genre.
+17. Retrieve the total quantity of books sold by each author.
+18. List the cities where customers who spend over $30 are located.
+19. Find the customer who spends the most on orders
+20. Calculate the remaining stock after fulfilling all orders.
 
 ## Project Focus
 
 This project primarily focuses on developing and showcasing the following SQL skills:
 
 -**Data Management**: Organizing book, customer, and order data into relational tables.
-
 -**Basic Queries**: Retrieving, filtering, and aggregating data (e.g., books by genre, orders by date, customer locations).
-
 -**Advanced Analysis**: Performing joins, grouping, and aggregations to uncover insights like top customers, top-selling genres, most expensive books, and total revenue.
-
 -**Decision Support**: Enabling business-focused insights such as customer spending behavior, stock analysis, and sales tracking.
-
 -**Hands-on SQL Practice**: Building strong command over SELECT, JOIN, GROUP BY, HAVING, ORDER BY, and aggregate functions.
