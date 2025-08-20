@@ -7,46 +7,38 @@ The Online Book Store project is a database-driven application designed to manag
 
 ## Database Schema
 
-The project uses five main tables:
+The project uses three main tables:
 
-1. **Constituencywise Results**: Contains information about constituencywise results.
-   - `Parliament Constituency`: name and the number together of each constituency.
-   - `Constituency Name`: Name of the Constituency.
-   - `Winning Candidate`: Person who got elected.
-   - `Total Votes`: Number of votes gained.
-   - `Margin`: Won by the number of votes.
-   - `Constituency ID`: Unique identifier for each constituency.
-   - `Party ID`: Unique identifier for each party.
+1. **Books**: Contains information about the books available in the store.
+   - `Book ID`: Unique identifier for each book.
+   - `Title`: Name of the book.
+   - `Author`: Name of the author.
+   - `Genre`: Category of the book (e.g., Fiction, Fantasy, etc.).
+   - `Published Year`: Year the book was published.
+   - `Price`: Price of the book.
+   - `Stock`: Number of copies available.
 
-2. **Constituencywise Details**: Detail information on candidate, votes, percentage of votes.
-   - `Candidate`: A candidate is ultimately an applicant for a position.
+2. **Customers**: Contains information about customers who purchase books.
+   - `Name`: Full name of the customer.
    - `Party`: Name of the party.
-   - `EVM Votes`:Electronic Voting Machine votes.
-   - `Postal Votes`: Votes by physically attending.
-   - `Total Votes`: Sum of EVM & Postal votes.
-   - `% of Votes`: Percentage of votes
-   - `Constituency ID`: Unique identifier for each constituency.
+   - `Email`: Email address of the customer (unique).
+   - `Country`: Country where the customer is located.
+   - `City`: City where the customer is located.
 
-3. **Statewise Results**: Details about state results.
-   - `Constituency`: Name of the Constituency.
-   - `Const. No.`: Number for each constituency.
-   - `Parliament Constituency`: name and the number together of each constituency.
-   - `Leading Candidate`: A leading candidate is the person who is ahead in votes.
-   - `Trailing Candidate`: A trailing candidate is a person who is behind in votes.
-   - `Margin`: Indicates how much one candidate is ahead or behind another.
-   - `Status`: Whether votes are still being counted, certified, or contested.
-   - `State ID`: Unique identifier for each state.
-   - `State`: Name of the state.
+3. **Orders**: Contains information about orders placed by customers.
+   - `Order ID`: Unique identifier for each order.
+   - `Customer ID`: Links to the customer who placed the order.
+   - `Book ID`: Links to the book being ordered.
+   - `Quantity`: Number of copies of the book ordered.
+   - `Total Amount`: Total price for the order (Quantity × Book Price).
+   - `Order Date`: Date when the order was placed.
 
-4. **Partywise Results**: Stores result depending on parties.
-   - `Party`: Name of the party.
-   - `Won`: Number of seats won.
-   - `Party ID`: Unique identifier for each party.
+**Relationships**
 
-5. **States**: Contains information about state.
-   - `State ID`: Unique identifier for each state.
-   - `State`: Name of the state.
+`One customer` → many orders (a customer can place multiple orders).
 
+`One book` → many orders (a book can be ordered by many customers).
+   
 ## Objectives
 The project is split into two tiers of questions to test SQL skills of increasing complexity:
 
